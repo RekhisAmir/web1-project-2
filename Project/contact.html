@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2a528a48fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Final Project</title>
+</head>
+<body>
+<header>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+    <a class="navbar-brand" href="./index.html"><img src="./img/logo.jpg" style="height: 60px; width: 60px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Products
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./products.html">Valves</a>
+            <a class="dropdown-item" href="./products.html">Pneumatic Equipments</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./products.html">Fitting</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    
+    </div>
+  </nav>
+</header>
+<br><br>
+<!-- <main class="container">
+    <div class="title">
+
+        <h3>INSCRIPTION</h3>
+
+    </div>
+    
+    <section class="form-val">
+        <form class="form-layout" id="regForm" action="#">
+            <div class="container">
+                <input class="text-inp" type="text" name="firstName" id="firstName" placeholder="Name...">
+                <input type="text" class="text-inp" name="lastName" id="lastName" placeholder="Last Name...">
+            </div>
+            <div class="container">
+                <textarea name="Adress" class="text-inp" id="adress" rows="4" placeholder="Adress..."></textarea>
+            </div>
+            <div class="container">
+                <input type="text" class="text-inp" name="mail" id="mail" placeholder="@mail...">
+                <input type="text" class="text-inp" name="phoneNumber" id="phoneNumber"
+                    placeholder="Phone Number...">
+            </div>
+            <div class="container">
+                <input type="password" class="text-inp" name="userPwd" id="userPwd" placeholder="Password...">
+                <input type="password" class="text-inp" name="userPwdConfirm" id="userPwdConfirm"
+                    placeholder="Repeat your Password...">
+            </div>
+            <div class="container">
+                <input type="reset" value="Reset" class="button" id="btn-reset" />
+                <button id="val" class="button" onclick="validate()">validate</button>
+            </div>
+        </form>
+    </section>
+
+    <div class="title">
+
+      <h3>Log In</h3>
+
+  </div>
+
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </form>
+    
+</main> -->
+<form class="container">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+
+<footer  style="height: 200px; background-color: #e8e8fc;">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-6 col-sm-12">
+       <div class="links">
+         <div class="logo">
+           <h4>Products</h4>
+         </div>
+         <div>
+           <ul>
+             <li>Valves</li>
+             <li>Fitting</li>
+             <li>Pneumatic Equipments</li>
+           </ul>
+         </div>
+       </div>
+    </div>
+    <div class="col-md-6 col-sm-12">
+      <div class="links">
+        <div class="logo">
+          <h4>Follow us</h4>
+        </div>
+        <div>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-linkedin"></i>
+         <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram-square"></i>
+          <i class="fab fa-youtube"></i>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-6 offset-md-3 col-sm-12">
+      <div class="text-center" style="height: 200px;">
+      <div class="links">
+        <div class="logo">
+          <h4>Contact us</h4>
+        </div>
+        <div>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</footer>
+  </body>
+  </html>

@@ -1,0 +1,195 @@
+/* header */
+.bg-light {
+  background-color: rgb(245, 246, 252)!important;
+}
+body{
+  padding-top: 80px;
+}
+
+/*section 2 */
+.section2{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.section2 h4{
+  text-align: center;
+}
+
+.sec2title{
+   text-align: center;
+}
+
+.section2 h2{
+  text-align: center;
+}
+
+.section2 .box{
+  text-align: center;
+}
+
+/*section 3*/
+.box2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-top: 0px ;
+  padding-bottom: 0px;
+  text-align: center;
+}
+.zoom {
+  padding: 20px 30px !important;
+  transition: transform .5s; /* Animation */
+  width: 150px;
+  height: 250px;
+  margin: 0 auto;
+  line-height: 1.2;
+  border-radius: 12px;
+}
+.boximg{
+  text-align: center;
+}
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  box-shadow: 5px 10px 18px #888888;
+}
+.imagebody{
+  border-radius: 12px;
+  transition: transform .5s;
+}
+.section2 img:hover{
+  transform: scale(1.2);
+}
+
+.products .card{
+  margin-left: 30px !important;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  height: 100%;
+  /* text-align: center; */
+} 
+/* form */
+form{
+  background-image: linear-gradient(rgba(183, 171, 236, 0.616), rgb(195, 227, 241));
+  padding: 20px;
+  margin-bottom: 20px;
+}
+footer{
+  padding: 20px 0;
+  height: auto !important;
+
+}
+footer ul {
+  list-style: none;
+  text-align: left;
+  padding: inherit;
+}
+footer i{
+  margin: 0 10px;
+}
+/* .fa-facebook{
+  position:absolute;
+  right: 60%;
+}
+.fa-linkedin{
+  position: absolute;
+  right: 50%;
+}
+.fa-twitter{
+  position:absolute;
+  right: 40%;
+}
+.fa-instagram-square{
+  position: absolute;
+  bottom: 20%;
+  right: 55%;
+}
+.fa-youtube{
+  position: absolute;
+  bottom: 20%;
+  right: 45%;
+} */
+
+/* footer .col-md-4{
+  height: 200px !important;
+  text-align: center;
+} */
+footer ul{
+    padding-left: 120px;
+    padding-right: 100px;
+
+}
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+
+}
+
+/*production*/
+.shop{
+  width: 250px;
+  margin-left: 500px;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content:space-between;
+  text-align: center;
+}
+/* ===============================
+      media query
+=============================== */
+@media screen and (max-width: 767px) {
+  .boximg img {
+    width: 100%;
+    height: 300px !important;
+}
+img.imagebody {
+  width: 100% !important;
+  background-size: cover;
+  height: 300px !important;
+}
+.zoom{
+  width: 100% !important;
+}
+.card{
+  width: 100% !important;
+  margin-bottom: 20px;
+}
+i.fab.fa-facebook , i.fab.fa-linkedin, i.fab.fa-twitter , i.fab.fa-instagram-square , i.fab.fa-youtube {
+  color: rgb(55, 5, 190) !important;
+}
+i.fab.fa-facebook:hover , i.fab.fa-linkedin:hover , i.fab.fa-twitter:hover , i.fab.fa-instagram-square:hover , i.fab.fa-youtube:hover {
+  color: rgb(139, 12, 8) !important;
+}
+/* footer */
+.logo {
+  text-align: center;
+}
+.links ul {
+  text-align: center;
+}
+.social-media {
+  text-align: center;
+  margin: 20px 0;
+}
+.form-control {
+  display: table;
+  margin: 10px auto;
+}
+}
+@media screen and (max-width: 767px) {
+  .logo h4 {
+    text-align: center;
+}
+}
+@media screen and (min-width:768px) {
+  .logo h4 {
+    text-align: center;
+}
+}
+
